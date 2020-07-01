@@ -1,0 +1,43 @@
+#jumbo {
+    padding: $jumbopadding;    
+}
+
+.jumbo-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    .jumbo-title {
+        font-size: $jumbotitlesize;
+        margin-bottom: 8px;
+        line-height: 1.2;
+
+        strong {
+           font-size: $jumbotitlesize;
+        }
+    }
+
+    .subtitle {
+        font-size: $subtitlesize;
+        margin: 40px 0 16px;
+        line-height: 1.1;
+    }
+    
+    ul {
+        padding-left: 20px;
+        margin-bottom: 16px;
+
+        .paragraph {
+        font-size: $listfontsize;
+        line-height: 1.5;
+        }
+    }
+}
+
+#pc-demo {
+    max-width: 90%;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
