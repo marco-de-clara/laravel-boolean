@@ -1,0 +1,14 @@
+#companies {
+    color: $colorgreybg;
+    font-size: $listfontsize;
+    padding-bottom: 20px;
+}
+
+.companies-top div,
+.companies-bottom div {
+    display: inline-block;
+
+    img {
+        max-width: 250px;
+    }
+}

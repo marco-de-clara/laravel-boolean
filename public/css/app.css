@@ -16203,11 +16203,25 @@ body {
   font-size: 19px;
 }
 
+#companies {
+  color: #8e8e97;
+  font-size: 19px;
+  padding-bottom: 20px;
+}
+
+.companies-top div,
+.companies-bottom div {
+  display: inline-block;
+}
+.companies-top div img,
+.companies-bottom div img {
+  max-width: 250px;
+}
+
 footer {
   background: #1b3c59;
   padding: 70px 0 30px;
   color: #fff;
-  border-top: 1px solid #fff;
 }
 
 .footer-head {
