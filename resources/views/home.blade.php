@@ -37,7 +37,6 @@
     </div>
 
     @include('home_partials.data')
-    @include('home_partials.companies')
 @endsection
 
 @section('page-title', 'Homepage')

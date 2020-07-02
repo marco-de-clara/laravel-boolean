@@ -1,0 +1,27 @@
+#data {
+    background: $darkbg;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.data-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .data-info {
+        max-width: 280px;
+
+        .data-title {
+            font-weight: bold;
+            text-align: center;
+            font-size: $datatitlesize;
+        }
+
+        .paragraph {
+            text-align: center;
+            font-size: $listfontsize;
+        }
+    }
+}
